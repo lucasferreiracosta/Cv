@@ -1,0 +1,35 @@
+
+  img {
+
+
+  border: 5px solid white;
+  image-orientation: center;
+}
+
+}
+
+<table>
+ {
+border-collapse: collapse;
+ width: 100%;
+}
+
+th, td {
+ text-align: left;
+ padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+th {
+ background-color: white;
+ color: black;
+}
+center
+</table>

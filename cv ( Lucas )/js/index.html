@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <script>
+    function colocarData() {
+      document.getElementById('demo').innerHTML = Date();
+    }
+
+    function limpar() {
+      document.getElementById('demo').innerHTML = '';
+      document.getElementById('meuconteudo').innerHTML = '';
+    }
+  </script>
+</head>
+
+<body>
+
+  <h1>Palmeiras não tem mundial </h1>
+
+  <button type="button" onclick="colocarData();">
+    Click me to display Date and Time.</button>
+  <br><br>
+  <button type="button" onclick="document.getElementById('meuconteudo').innerHTML = 'Lindo eu sou' ">
+    Luquinhas </button>
+  <br><br>
+  <button type="button" onclick="limpar();">Limpar conteudo
+  </button>
+
+  <p id="demo"></p>
+  <p id="meuconteudo"></p>
+
+</body>
+
+</html>
